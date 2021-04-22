@@ -3,6 +3,7 @@ theme: pure
 title: "僭越ながらお金持ちになりたいおじさん"
 author: "おじさん"
 hasCJKLanguage: true
+publishDir: docs
 
 copyright: CC BY 4.0 CN
 footnoteReturnLinkContents: ↩
