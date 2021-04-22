@@ -3,7 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://example.com/tags/go/</loc>
+    <lastmod>2021-04-22T23:30:05+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/2021/04/20210410/</loc>
+    <lastmod>2021-04-22T23:30:05+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://example.com/posts/</loc>
+    <lastmod>2021-04-22T23:30:05+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2021-04-22T23:30:05+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/tech/</loc>
+    <lastmod>2021-04-22T23:30:05+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2021-04-22T23:30:05+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/1%E3%81%A4%E3%82%81/</loc>
+    <lastmod>2021-04-04T13:18:16+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/flutter/</loc>
+    <lastmod>2021-04-04T13:18:16+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/web/</loc>
     <lastmod>2021-04-04T13:18:16+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -17,13 +73,6 @@
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
-    <lastmod>2021-04-04T13:18:16+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://example.com/2021/04/20210403/</loc>
     <lastmod>2021-04-03T14:51:05+09:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -31,21 +80,14 @@
   </url>
   
   <url>
-    <loc>https://example.com/2021/03/20210329/</loc>
-    <lastmod>2021-03-28T17:31:30+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/</loc>
-    <lastmod>2021-03-28T17:31:30+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://example.com/tags/%E7%84%A1%E9%A7%84%E5%8F%A3/</loc>
+    <lastmod>2021-04-03T14:51:05+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/2021/03/20210329/</loc>
     <lastmod>2021-03-28T17:31:30+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

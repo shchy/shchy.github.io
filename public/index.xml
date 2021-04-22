@@ -6,10 +6,19 @@
     <description>Recent content on 僭越ながらお金持ちになりたいおじさん</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>CC BY 4.0 CN</copyright>
-    <lastBuildDate>Sun, 04 Apr 2021 13:18:16 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 22 Apr 2021 23:30:05 +0900</lastBuildDate>
     
         <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>goにgenricsが来るらしい</title>
+      <link>https://example.com/2021/04/20210410/</link>
+      <pubDate>Thu, 22 Apr 2021 23:30:05 +0900</pubDate>
+      
+      <guid>https://example.com/2021/04/20210410/</guid>
+      <description>弱点なくなるじゃんね。 バックエンドにgoを選択したのは何かのお導きだったのか。 https://go.googlesource.com/proposal/+/refs/heads/master/design/43651-type-parameters.md によると2022年の1.18バージョンで正式リリースされると</description>
+    </item>
     
     <item>
       <title>フロントエンドの選択</title>

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Series on 僭越ながらお金持ちになりたいおじさん</title>
-    <link>https://example.com/series/</link>
-    <description>Recent content in Series on 僭越ながらお金持ちになりたいおじさん</description>
+    <title>1つめ on 僭越ながらお金持ちになりたいおじさん</title>
+    <link>https://example.com/tags/1%E3%81%A4%E3%82%81/</link>
+    <description>Recent content in 1つめ on 僭越ながらお金持ちになりたいおじさん</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>CC BY 4.0 CN</copyright>
+    <lastBuildDate>Sun, 04 Apr 2021 13:18:16 +0900</lastBuildDate>
     
-        <atom:link href="https://example.com/series/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://example.com/tags/1%E3%81%A4%E3%82%81/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
