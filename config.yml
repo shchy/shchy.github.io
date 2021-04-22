@@ -1,9 +1,11 @@
-baseURL: https://example.com/
+baseURL: https://shchy.github.io/
 theme: pure
 title: "僭越ながらお金持ちになりたいおじさん"
 author: "おじさん"
 hasCJKLanguage: true
 publishDir: docs
+languageCode: ja
+defaultContentLanguage: ja
 
 copyright: CC BY 4.0 CN
 footnoteReturnLinkContents: ↩
