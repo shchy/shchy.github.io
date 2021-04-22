@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+        フロントエンドの選択 - 僭越ながらお金持ちになりたいおじさん
+      </title>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    
+    <meta name="theme-color" content="#000000" />
+    
+    <meta http-equiv="window-target" content="_top" />
+    
+    
+    <meta name="description" content="どれにしよう Vueは2も3も使った。 angularはangularDartで使ったことがあるけど、angularのノウハウでイケない問題にぶ" />
+    <meta name="generator" content="Hugo 0.82.1 with theme pure" />
+    <title>フロントエンドの選択 - 僭越ながらお金持ちになりたいおじさん</title>
+    
+    
+    <link rel="stylesheet" href="https://example.com/css/style.min.6f90022f237877ae2514ec95f3c9cca9f2314394f20800ca037a497e20053122.css">
+    
+    <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
+    <meta property="og:title" content="フロントエンドの選択" />
+<meta property="og:description" content="どれにしよう Vueは2も3も使った。 angularはangularDartで使ったことがあるけど、angularのノウハウでイケない問題にぶ" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/2021/04/20210404/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-04-04T13:18:16&#43;09:00" />
+<meta property="article:modified_time" content="2021-04-04T13:18:16&#43;09:00" />
+
+<meta itemprop="name" content="フロントエンドの選択">
+<meta itemprop="description" content="どれにしよう Vueは2も3も使った。 angularはangularDartで使ったことがあるけど、angularのノウハウでイケない問題にぶ"><meta itemprop="datePublished" content="2021-04-04T13:18:16&#43;09:00" />
+<meta itemprop="dateModified" content="2021-04-04T13:18:16&#43;09:00" />
+<meta itemprop="wordCount" content="642">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="フロントエンドの選択"/>
+<meta name="twitter:description" content="どれにしよう Vueは2も3も使った。 angularはangularDartで使ったことがあるけど、angularのノウハウでイケない問題にぶ"/>
+
+    <!--[if lte IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+      <![endif]-->
+
+    <!--[if lt IE 9]>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+      <![endif]-->
+  </head>
+
+  
+  
+
+  <body class="main-center theme-black" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="https://github.com/shchy" target="_blank">
+            <img class="img-circle img-rotate" src="https://example.com/avatar.png" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">おじさん</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md"></h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>Japan</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="Type something..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts/">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories/">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-tags">
+                <a href="/tags/">
+                    <i class="icon icon-tags"></i>
+                  <span class="menu-title">Tags</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title">Board</h3>
+    <div class="widget-body">
+        <div id="board">
+            <div class="content"><p>まだ0円</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+      <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+        </ul>
+    </div>
+</div>
+      <div class="widget">
+    <h3 class="widget-title"> Tags</h3>
+    <div class="widget-body">
+        <ul class="tag-list">
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/%E7%84%A1%E9%A7%84%E5%8F%A3/" class="tag-list-link">無駄口</a><span
+                    class="tag-list-count">2</span></li>
+            
+        </ul>
+
+    </div>
+</div>
+      
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://example.com/2021/04/20210404/" class="title">フロントエンドの選択</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-04-04 13:18:16 &#43;0900 JST" itemprop="datePublished">2021-04-04</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://example.com/2021/04/20210403/" class="title">バックエンドサーバの選択</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-04-03 14:51:05 &#43;0900 JST" itemprop="datePublished">2021-04-03</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://example.com/2021/03/20210329/" class="title">2日目</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-03-28 17:31:30 &#43;0900 JST" itemprop="datePublished">2021-03-28</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://example.com/2021/03/first/" class="title">一歩目</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-03-28 01:20:42 &#43;0900 JST" itemprop="datePublished">2021-03-28</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <h4 class="toc-title">Catalogue</h4>
+    <nav id="toc" class="js-toc toc">
+
+    </nav>
+  </div>
+</aside>
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2021/04/20210404/"
+    >フロントエンドの選択</a
+  >
+</h1>
+
+      <div class="article-meta">
+        
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://example.com/2021/04/20210404/" class="article-date">
+  <time datetime="2021-04-04 13:18:16 &#43;0900 JST" itemprop="datePublished">2021-04-04</time>
+</a>
+</span>
+
+
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 642 words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 2 minutes </span>
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <h1 id="どれにしよう">どれにしよう</h1>
+<p>Vueは2も3も使った。<br>
+angularはangularDartで使ったことがあるけど、angularのノウハウでイケない問題にぶつかって中身解析しなくちゃいけない頻度が多くて超めんどい。<br>
+reactは使ったことない。</p>
+<p>stackoverflowの比較<br>
+<a href="https://insights.stackoverflow.com/trends?tags=reactjs%2Cvue.js%2Cangular">https://insights.stackoverflow.com/trends?tags=reactjs%2Cvue.js%2Cangular</a></p>
+<p>reactか。しかしながら、おじさんはメジャーな奴は好きではないのであった。<br>
+dartのBLOCパターンを使ってみたいので結果を無視してflutterにしてみる。</p>
+<p><a href="https://insights.stackoverflow.com/trends?tags=reactjs%2Cvue.js%2Cangular%2Cflutter">https://insights.stackoverflow.com/trends?tags=reactjs%2Cvue.js%2Cangular%2Cflutter</a><br>
+２位だし。（Webだけじゃないけど）</p>
+<h1 id="spaのseo対策について">SPAのSEO対策について</h1>
+<p>SPAはSEO的に不利と見た覚えがある。<br>
+<a href="https://www.codit.work/notes/mhpxxkeqv4qhzfjecmrn/">https://www.codit.work/notes/mhpxxkeqv4qhzfjecmrn/</a><br>
+もう結構平気みたい。</p>
+<h1 id="構築手順">構築手順</h1>
+<p>公式サイトに沿って進めるだけ。<br>
+<a href="https://flutter.dev/docs/get-started/web">https://flutter.dev/docs/get-started/web</a></p>
+<pre><code class="language-sh">cd ~/development
+curl -LO https://storage.googleapis.com/flutter_infra/releases/stable/macos/flutter_macos_2.0.4-stable.zip
+unzip ~/development/flutter_macos_2.0.4-stable.zip 
+echo &amp;quot;export PATH=\$PATH:$(pwd)/flutter/bin&amp;quot; &amp;gt;&amp;gt; ~/.zshrc
+source ~/.zshrc 
+rm ~/development/flutter_macos_2.0.4-stable.zip 
+</code></pre>
+<h2 id="flutter-doctor-で依存関係のステータス確認"><code>flutter doctor</code> で依存関係のステータス確認</h2>
+<pre><code class="language-sh">Running &amp;quot;flutter pub get&amp;quot; in flutter_tools...                       3.3s
+Doctor summary (to see all details, run flutter doctor -v):
+[✓] Flutter (Channel stable, 2.0.4, on macOS 11.3 20E5217a darwin-x64, locale ja-JP)
+[✗] Android toolchain - develop for Android devices
+    ✗ Unable to locate Android SDK.
+      Install Android Studio from: https://developer.android.com/studio/index.html
+      On first launch it will assist you in installing the Android SDK components.
+      (or visit https://flutter.dev/docs/get-started/install/macos#android-setup for detailed instructions).
+      If the Android SDK has been installed to a custom location, please use
+      `flutter config --android-sdk` to update to that location.
+
+[✗] Xcode - develop for iOS and macOS
+    ✗ Xcode installation is incomplete; a full installation is necessary for iOS development.
+      Download at: https://developer.apple.com/xcode/download/
+      Or install Xcode via the App Store.
+      Once installed, run:
+        sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+        sudo xcodebuild -runFirstLaunch
+    ✗ CocoaPods not installed.
+        CocoaPods is used to retrieve the iOS and macOS platform side&amp;#39;s plugin code that responds to your plugin usage on the Dart
+        side.
+        Without CocoaPods, plugins will not work on iOS or macOS.
+        For more info, see https://flutter.dev/platform-plugins
+      To install see https://guides.cocoapods.org/using/getting-started.html#installation for instructions.
+[✓] Chrome - develop for the web
+[!] Android Studio (not installed)
+[✓] VS Code (version 1.54.3)
+[✓] Connected device (1 available)
+
+! Doctor found issues in 3 categories.
+</code></pre>
+<p><code>[✓] Chrome - develop for the web</code>がオッケーならよさそう。</p>
+<h2 id="flutter-devices-でデバイスが有効になっていることを確認"><code>flutter devices</code> でデバイスが有効になっていることを確認</h2>
+<pre><code>1 connected device:
+
+Chrome (web) • chrome • web-javascript • Google Chrome 89.0.4389.114
+</code></pre>
+<h1 id="アプリ作成">アプリ作成</h1>
+<pre><code class="language-sh">flutter create clientapp
+</code></pre>
+<h1 id="起動確認">起動確認</h1>
+<pre><code class="language-sh">cd clientapp
+flutter run -d chrome
+</code></pre>
+<p><img src="/imgs/20210404.png.png" alt="スクショ"><br>
+コードがリアルタイムに反映されるので開発も楽そう。</p>
+
+    </div>
+    <div class="article-footer">
+<blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    <li class="post-copyright-link hidden-xs">
+      <strong>Permalink: </strong>
+      <a href="https://example.com/2021/04/20210404/" title="フロントエンドの選択" target="_blank" rel="external">https://example.com/2021/04/20210404/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>License: </strong>
+        <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN</a>
+    </li>
+  </ul>
+</blockquote>
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/shchy" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="https://example.com/avatar.png" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/shchy" target="_blank"><span class="text-dark">おじさん</span><small class="ml-1x"></small></a></h3>
+        <div></div>
+      </div>
+    </figure>
+  </div>
+</div>
+
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="https://example.com/2021/04/20210403/" title="バックエンドサーバの選択"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            
+            <li class="toggle-toc">
+                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
+                    title="Catalogue" role="button">
+                    <span>[&nbsp;</span><span>Catalogue</span>
+                    <i class="text-collapsed icon icon-anchor"></i>
+                    <i class="text-in icon icon-close"></i>
+                    <span>]</span>
+                </a>
+            </li>
+        </ul>
+        <div class="bar-right">
+            <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter"
+                data-mobile-sites="weibo,qq,qzone"></div>
+        </div>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/shchy" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://example.com/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2021  -
+    2021
+    <div class="publishby">
+        Theme by <a href="https://github.com/xiaoheiAh" target="_blank"> xiaoheiAh </a>base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/javascript.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/go.min.js" defer></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script src="https://example.com/js/application.min.a94ab19cb63a95c8d7fbd7b85cab3ddeea8c369bdf75b9cab6708787ead123af.js"></script>
+<script src="https://example.com/js/plugin.min.19c5bcb2fb0789ab4f2b7834e5ceb5e92635645605bab902c1024b25f1502364.js"></script>
+
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: 'Posts',
+                PAGES: 'Pages',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
+                UNTITLED: '(Untitled)',
+            },
+            ROOT_URL: 'https:\/\/example.com\/',
+            CONTENT_URL: 'https:\/\/example.com\/\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="https://example.com/js/insight.min.4a2d52de4bfff73e0c688404fe3d17c9a3ae12d9888e1e1ac9c690e4890de2ded50fe55f2b819c2ba55435a76f396f3ea6805765f0b0af5635cdf74ea459eab0.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+
+  </body>
+</html>
