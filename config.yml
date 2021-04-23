@@ -68,6 +68,7 @@ menu:
     #   weight: 5
 
 params:
+  customCss: css/ja.css
   since: 2021
   dateFormatToUse: "2006-01-02"
   enablePostCopyright: false
@@ -104,8 +105,8 @@ params:
     avatar: avatar.png
     gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
     author: "おじさん"
-    author_title: ""
-    author_description: ""
+    author_title: "僭越ながらお金持ちになりたいおじさん"
+    author_description: "僭越ながらお金持ちになりたいおじさん"
     location: Japan
     follow: /
     # Social Links

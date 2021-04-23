@@ -1,0 +1,11 @@
+html,
+body,
+.tooltip,
+.ins-search-input {
+  font-family: "Lato", "Noto Sans JP", "游ゴシック Medium", "游ゴシック体",
+    "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN",
+    "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック",
+    "MS PGothic", "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",
+    sans-serif;
+}
