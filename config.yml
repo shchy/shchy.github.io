@@ -12,7 +12,7 @@ footnoteReturnLinkContents: ↩
 paginate: 7
 enableEmoji: true
 PygmentsCodeFences: false
-googleAnalytics: "" # UA-XXXXXXXX-X
+googleAnalytics: "G-9T2L0J824R"
 permalinks:
   posts: /:year/:month/:filename/
 
