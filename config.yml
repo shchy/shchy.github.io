@@ -69,6 +69,7 @@ menu:
 
 params:
   customCss: css/ja.css
+  googleVerification: "ivAYAN53Xi61yOBhZLoPShC9fVyCmjPULXNUj0pneqg"
   since: 2021
   dateFormatToUse: "2006-01-02"
   enablePostCopyright: false
