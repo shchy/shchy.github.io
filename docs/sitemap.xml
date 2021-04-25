@@ -3,42 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://shchy.github.io/tags/1%E3%81%A4%E3%82%81/</loc>
-    <lastmod>2021-04-25T18:32:51+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://shchy.github.io/posts/</loc>
-    <lastmod>2021-04-25T18:32:51+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://shchy.github.io/tags/</loc>
-    <lastmod>2021-04-25T18:32:51+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://shchy.github.io/2021/04/20210425/</loc>
-    <lastmod>2021-04-25T18:32:51+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://shchy.github.io/</loc>
-    <lastmod>2021-04-25T18:32:51+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://shchy.github.io/tags/%E7%84%A1%E9%A7%84%E5%8F%A3/</loc>
     <lastmod>2021-04-25T18:32:51+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -52,36 +17,8 @@
   </url>
   
   <url>
-    <loc>https://shchy.github.io/tags/go/</loc>
-    <lastmod>2021-04-10T23:01:05+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://shchy.github.io/2021/04/20210410/</loc>
     <lastmod>2021-04-10T23:01:05+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://shchy.github.io/tags/tech/</loc>
-    <lastmod>2021-04-10T23:01:05+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://shchy.github.io/tags/flutter/</loc>
-    <lastmod>2021-04-04T13:18:16+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://shchy.github.io/tags/web/</loc>
-    <lastmod>2021-04-04T13:18:16+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -110,18 +47,6 @@
   <url>
     <loc>https://shchy.github.io/2021/03/20210328/</loc>
     <lastmod>2021-03-28T01:20:42+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://shchy.github.io/categories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://shchy.github.io/series/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
