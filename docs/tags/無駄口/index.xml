@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>CC BY 4.0 CN</copyright>
-    <lastBuildDate>Sat, 03 Apr 2021 14:51:05 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 25 Apr 2021 18:32:51 +0900</lastBuildDate>
     
         <atom:link href="https://shchy.github.io/tags/%E7%84%A1%E9%A7%84%E5%8F%A3/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>サボり監視</title>
+      <link>https://shchy.github.io/2021/04/20210425/</link>
+      <pubDate>Sun, 25 Apr 2021 18:32:51 +0900</pubDate>
+      
+      <guid>https://shchy.github.io/2021/04/20210425/</guid>
+      <description>画面イメージ作成 Blogの各種連携は完了し、サボり監視ツールの制作は一ミリ進んだ🤥 inVision使ってみたけど作図はフリーハンドでしかでき</description>
+    </item>
     
     <item>
       <title>Google AdSenseの審査に落ちた</title>
