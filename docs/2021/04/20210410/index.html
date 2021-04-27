@@ -42,7 +42,7 @@
 <meta itemprop="name" content="goにgenricsが来るらしい">
 <meta itemprop="description" content="弱点なくなるじゃんね。 バックエンドにgoを選択したのは何かのお導きだったのか。 https://go.googlesource.com/proposal/&#43;/refs/heads/master/design/43651-type-parameters.md によると2022年の1.18バージョンで正式リリースされると"><meta itemprop="datePublished" content="2021-04-10T23:01:05&#43;09:00" />
 <meta itemprop="dateModified" content="2021-04-10T23:01:05&#43;09:00" />
-<meta itemprop="wordCount" content="670">
+<meta itemprop="wordCount" content="798">
 <meta itemprop="keywords" content="go,tech," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="goにgenricsが来るらしい"/>
 <meta name="twitter:description" content="弱点なくなるじゃんね。 バックエンドにgoを選択したのは何かのお導きだったのか。 https://go.googlesource.com/proposal/&#43;/refs/heads/master/design/43651-type-parameters.md によると2022年の1.18バージョンで正式リリースされると"/>
@@ -285,7 +285,7 @@
     <a class="article-tag-link" href="/tags/tech/"> tech </a>
   </span>
 
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 670 words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 798 words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 2 minutes </span>
       </div>
     </div>
@@ -298,25 +298,29 @@
 <a href="https://go.googlesource.com/proposal/+/refs/heads/master/design/go2draft-contracts.md">https://go.googlesource.com/proposal/+/refs/heads/master/design/go2draft-contracts.md</a><br>
 <a href="https://medium.com/eureka-engineering/golang-generics-design-draft-linked-list-4d1174e2355d">https://medium.com/eureka-engineering/golang-generics-design-draft-linked-list-4d1174e2355d</a><br>
 上記ブログの手順をやってみた。</p>
-<h1 id="go2goのインストール">go2goのインストール</h1>
-<pre><code class="language-sh">mkdir ~/go2go &amp; cd go2go
-git clone https://go.googlesource.com/go goroot &amp; cd goroot
+<h1 id="go2goブランチでgoをビルド">go2goブランチでgoをビルド</h1>
+<pre><code class="language-sh">mkdir ~/go2go &amp;&amp; cd go2go
+git clone https://go.googlesource.com/go goroot &amp;&amp; cd goroot
 git fetch 
 git checkout dev.go2go
 cd src
-./all.bash
+./make.bash
 echo 'export PATH=&quot;$HOME/go2go/goroot/bin:$PATH&quot;' &gt;&gt; ~/.zshrc
 source ~/.zshrc
 </code></pre>
-<h1 id="動かない">動かない</h1>
+<h1 id="動かない-動いた20210427追記"><del>動かない</del> 動いた（2021/04/27追記）</h1>
 <pre><code class="language-sh">go tool go2go run main.go2
 cannot find package &quot;run&quot; in any of:
 ...
 /Users/user/go2go/goroot/bin/go [run run main.go] failed: exit status 1
 </code></pre>
 <p><code>[run run main.go]</code>て何？run main.goが正しいのでは。</p>
+<p><strong>2021/04/27追記</strong><br>
+<code>run run</code>は<a href="https://github.com/golang/go/issues/45502">バグ</a>でした。<br>
+最新をpullして実行したら<code>go tool go2go run main.go2</code>で動きましたが、やはりfiber使ったコードではエラーになる。</p>
 <h1 id="動いた">動いた</h1>
-<p>バグなのかなってことで<code>translate</code>でgoファイルに変換して自分でrunするとうまくいった。<br>
+<p><del>バグなのかなってことで<code>translate</code>でgoファイルに変換して自分でrunするとうまくいった。</del><br>
+<code>go tool go2go translate main.go2</code>で変換コードを確認してみる。<br>
 Genericな関数もちゃんと変換されてる</p>
 <pre><code class="language-sh">go tool go2go translate main.go2
 go run main.go
@@ -365,7 +369,7 @@ type Importable୦ int
 //line main.go2:9
 var _ = fmt.Errorf
 </code></pre>
-<p>でもこれだと他のジェネレータ系と変わらないね</p>
+<p><del>でもこれだと他のジェネレータ系と変わらないね</del></p>
 <h1 id="作り始めたfiberサーバにそのまま使えるのか">作り始めたfiberサーバにそのまま使えるのか</h1>
 <p>結論だけ言うとうまくいかなかった。<br>
 <code>importGo1Package</code>ってとこで死んでるので既存ライブラリのインポートに失敗してるっぽい。<br>
