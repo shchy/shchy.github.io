@@ -39,6 +39,8 @@ widget_search:
   other: Search
 widget_board:
   other: Board
+widget_adsense:
+  other: Adsense
 widget_archive:
   other: Archive
 widget_tags:
