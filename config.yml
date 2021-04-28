@@ -215,8 +215,8 @@ params:
   # Sidebar only the following widgets. you can remove any you don't like it.
   widgets:
     - board
-    # - tag_cloud
-    - category
-    - tag
+    - tag_cloud
+    # - category
+    # - tag
     - recent_posts
     - adsense

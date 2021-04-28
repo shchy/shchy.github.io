@@ -142,45 +142,58 @@
 </div>
 
       <div class="widget">
-    <h3 class="widget-title"> Categories</h3>
-    <div class="widget-body">
-        <ul class="category-list">
-        </ul>
-    </div>
-</div>
-      <div class="widget">
     <h3 class="widget-title"> Tags</h3>
-    <div class="widget-body">
-        <ul class="tag-list">
+    <div id="tag-cloud-list" class="widget-body">
             
             
-            <li class="tag-list-item"><a href="https://shchy.github.io/tags/1%E3%81%A4%E3%82%81/" class="tag-list-link">1つめ</a><span
-                    class="tag-list-count">2</span></li>
+            <a href="https://shchy.github.io/tags/1%E3%81%A4%E3%82%81/" class="tag-list-link" rel="2">1つめ<span
+               class="tag-list-count">2</span></a>
             
             
-            <li class="tag-list-item"><a href="https://shchy.github.io/tags/flutter/" class="tag-list-link">flutter</a><span
-                    class="tag-list-count">1</span></li>
+            <a href="https://shchy.github.io/tags/flutter/" class="tag-list-link" rel="1">flutter<span
+               class="tag-list-count">1</span></a>
             
             
-            <li class="tag-list-item"><a href="https://shchy.github.io/tags/go/" class="tag-list-link">go</a><span
-                    class="tag-list-count">1</span></li>
+            <a href="https://shchy.github.io/tags/go/" class="tag-list-link" rel="1">go<span
+               class="tag-list-count">1</span></a>
             
             
-            <li class="tag-list-item"><a href="https://shchy.github.io/tags/tech/" class="tag-list-link">tech</a><span
-                    class="tag-list-count">2</span></li>
+            <a href="https://shchy.github.io/tags/tech/" class="tag-list-link" rel="2">tech<span
+               class="tag-list-count">2</span></a>
             
             
-            <li class="tag-list-item"><a href="https://shchy.github.io/tags/web/" class="tag-list-link">web</a><span
-                    class="tag-list-count">1</span></li>
+            <a href="https://shchy.github.io/tags/web/" class="tag-list-link" rel="1">web<span
+               class="tag-list-count">1</span></a>
             
             
-            <li class="tag-list-item"><a href="https://shchy.github.io/tags/%E7%84%A1%E9%A7%84%E5%8F%A3/" class="tag-list-link">無駄口</a><span
-                    class="tag-list-count">5</span></li>
+            <a href="https://shchy.github.io/tags/%E7%84%A1%E9%A7%84%E5%8F%A3/" class="tag-list-link" rel="5">無駄口<span
+               class="tag-list-count">5</span></a>
             
-        </ul>
-
     </div>
+<script>
+document.onreadystatechange = () => {
+  if (document.readyState === 'complete') {
+    tagCloud('#tag-cloud-list a',  8 ,  20 );
+  }
+};
+
+function tagCloud(where, min, max) {
+  let iMax = 0;
+  let iMin = 0;
+  $(where).each(function() {
+    let weight = Number($(this).attr("rel"));
+    if(iMax < weight) iMax = weight;
+    if(iMin > weight || iMin == 0) iMin = weight;
+  });
+  let step = (max - min)/(iMax - iMin);
+  $(where).each(function() {
+    let weight = $(this).attr("rel") - iMin;
+    $(this).css({"font-size": min + (weight * step) + 'px'});
+  });
+};
+</script>
 </div>
+
       
 <div class="widget">
     <h3 class="widget-title">Recent Posts</h3>
