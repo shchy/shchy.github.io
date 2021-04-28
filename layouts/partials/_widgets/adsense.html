@@ -1,0 +1,12 @@
+<div class="widget">
+    <h3 class="widget-title">{{ T "widget_adsense" }}</h3>
+    <div class="widget-body">
+        <div id="board">
+            <div class="content">
+                {{ if not .Site.IsServer }}
+                    {{- printf $.Site.Params.site.adsense | safeHTML }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
