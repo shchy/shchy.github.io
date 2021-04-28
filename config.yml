@@ -219,4 +219,4 @@ params:
     # - category
     # - tag
     - recent_posts
-    - adsense
+    # - adsense
