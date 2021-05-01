@@ -18,6 +18,11 @@
     <script data-ad-client="ca-pub-9093178841159974" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     
     
+    <meta name="thumbnail" content="https://shchy.github.io/imgs/20210501/01.png"/>
+    
+    <meta property="og:image" content="https://shchy.github.io/imgs/20210501/01.png" />
+    
+    
 
     
     <meta name="theme-color" content="#000000" />
@@ -26,7 +31,7 @@
     
     
     
-    <meta name="google-site-verification" content="ivAYAN53Xi61yOBhZLoPShC9fVyCmjPULXNUj0pneqg" /><meta name="description" content="アプリをホストするサーバはDigitalOceanにする。 仕事ではなんとなくAWSが多い気がするが、おじさんはメジャーなものはあんまり好きじ" />
+    <meta name="google-site-verification" content="ivAYAN53Xi61yOBhZLoPShC9fVyCmjPULXNUj0pneqg" /><meta name="description" content="動機 アプリをホストするサーバはDigitalOceanにする。 仕事ではなんとなくAWSが多い気がするが、おじさんはメジャーなものはあんまり好" />
     <meta name="generator" content="Hugo 0.82.1 with theme pure" />
     <title>K3S🛴 - 僭越ながらお金持ちになりたいおじさん</title>
     
@@ -37,19 +42,19 @@
     <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
     <meta property="og:title" content="K3S🛴" />
-<meta property="og:description" content="アプリをホストするサーバはDigitalOceanにする。 仕事ではなんとなくAWSが多い気がするが、おじさんはメジャーなものはあんまり好きじ" />
+<meta property="og:description" content="動機 アプリをホストするサーバはDigitalOceanにする。 仕事ではなんとなくAWSが多い気がするが、おじさんはメジャーなものはあんまり好" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shchy.github.io/2021/05/20210501/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-05-01T22:28:13&#43;09:00" />
 <meta property="article:modified_time" content="2021-05-01T22:28:13&#43;09:00" />
 
 <meta itemprop="name" content="K3S🛴">
-<meta itemprop="description" content="アプリをホストするサーバはDigitalOceanにする。 仕事ではなんとなくAWSが多い気がするが、おじさんはメジャーなものはあんまり好きじ"><meta itemprop="datePublished" content="2021-05-01T22:28:13&#43;09:00" />
+<meta itemprop="description" content="動機 アプリをホストするサーバはDigitalOceanにする。 仕事ではなんとなくAWSが多い気がするが、おじさんはメジャーなものはあんまり好"><meta itemprop="datePublished" content="2021-05-01T22:28:13&#43;09:00" />
 <meta itemprop="dateModified" content="2021-05-01T22:28:13&#43;09:00" />
-<meta itemprop="wordCount" content="701">
+<meta itemprop="wordCount" content="773">
 <meta itemprop="keywords" content="52steps,k9s,k3s,digitalocean," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="K3S🛴"/>
-<meta name="twitter:description" content="アプリをホストするサーバはDigitalOceanにする。 仕事ではなんとなくAWSが多い気がするが、おじさんはメジャーなものはあんまり好きじ"/>
+<meta name="twitter:description" content="動機 アプリをホストするサーバはDigitalOceanにする。 仕事ではなんとなくAWSが多い気がするが、おじさんはメジャーなものはあんまり好"/>
 
     <!--[if lte IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -316,25 +321,27 @@ function tagCloud(where, min, max) {
     <a class="article-tag-link" href="/tags/digitalocean/"> digitalocean </a>
   </span>
 
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 701 words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 773 words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 2 minutes </span>
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      <p>アプリをホストするサーバはDigitalOceanにする。<br>
+      <h1 id="動機">動機</h1>
+<p>アプリをホストするサーバはDigitalOceanにする。<br>
 仕事ではなんとなくAWSが多い気がするが、おじさんはメジャーなものはあんまり好きじゃないのである。<br>
 DigitalOceanは５年くらい無駄に五百円払い続けてたという実績を持っているのでベテランである。<br>
 k8sならどこで動いているかはあんまり関係ないのである。（コンピューティングサービス使うだけなら）</p>
 <p>と思ったらk8sを使うには1000円💵かかる。ワンコイン🪙じゃないのか。<br>
 社内に作ったのと同じように500円サーバにk8sをbaremetalで構築すれば良いのではないかと閃いたが、500円では1cpuなので無理っぽい。<br>
 この機会にk3sを試してみた。</p>
+<h1 id="手順">手順</h1>
 <ol>
 <li>
 <p>アカウント作ってCreateボタンからDropletを選択<br>
 <img src="/imgs/20210501/00.png" alt=""></p>
 </li>
 <li>
-<p><code>Choose an image</code>から<code>Container distributions</code>を選択して<code>RancherOS</code>を選択<br>
+<p><code>Choose an image</code>から<code>Ubuntu</code>を選択<br>
 <img src="/imgs/20210501/01.png" alt=""></p>
 </li>
 <li>
@@ -345,39 +352,33 @@ k8sならどこで動いているかはあんまり関係ないのである。�
 </li>
 <li>
 <p>作ったDropletを選択するとIPが確認できる(赤い塗りつぶしのとこ)のでSSH接続する<br>
-<code>ssh rancher@&lt;IP&gt;</code><br>
+<code>ssh root@&lt;IP&gt;</code><br>
 <img src="/imgs/20210501/03.png" alt=""></p>
 </li>
 <li>
-<p>rancherOSのconsoleをubuntuに切り替える<br>
-一回接続切れるので再度SSHで接続する</p>
+<p>k3sをインストール</p>
 </li>
 </ol>
-<pre><code class="language-shell">sudo ros console switch ubuntu
+<pre><code class="language-shell">curl -sfL https://get.k3s.io | sh -
 </code></pre>
 <ol start="6">
-<li><a href="https://github.com/k3s-io/k3s/releases">ここ</a>から<code>k3s</code>バイナリのURLをコピーしてcurlでバイナリをダウンロード</li>
+<li>configファイルのダウンロード<br>
+<code>&lt;IP&gt;</code>の箇所を接続IPに書き換えて出力された内容をローカルの<code>~/.kube/config</code>に配置</li>
 </ol>
-<pre><code class="language-sh">sudo curl -L &quot;https://github.com/k3s-io/k3s/releases/download/v1.21.0%2Bk3s1/k3s&quot; -o /usr/local/bin/k3s
-sudo chmod +x /usr/local/bin/k3s
+<pre><code class="language-sh">cat /etc/rancher/k3s/k3s.yaml | sed s/127.0.0.1/&lt;IP&gt;/
 </code></pre>
 <ol start="7">
-<li>k3sの起動</li>
-</ol>
-<pre><code class="language-sh">sudo k3s server &amp;
-</code></pre>
-<ol start="8">
-<li>configファイルの場所<br>
-以下のファイルをローカルの<code>~/.kube/config</code>にダウンロード</li>
-</ol>
-<pre><code class="language-sh">/etc/rancher/k3s/k3s.yaml
-</code></pre>
-<ol start="9">
 <li>接続確認<br>
 ssh切断してローカルで<code>kubectl</code>とか<code>k9s</code>が使えるかどうか確認</li>
 </ol>
 <pre><code class="language-sh">kubectl get all -A
 </code></pre>
+<h1 id="感想">感想</h1>
+<p>応答がめちゃ遅い。<br>
+rancherOSにしてDockerイメージを単体で起動する形にすべきだろうか。<br>
+でもDBイメージとか複数起動したりするのめんどい。k8s使いたい。<br>
+500円はやはり無謀なのだろうか。<br>
+k3sはエッジなハードウェアでk8sクラスタを起動する用途なので（多分）低スペックな環境でどこまでイケるかしばらく試してみよう。</p>
 
     </div>
     <div class="article-footer">
