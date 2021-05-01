@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>CC BY 4.0 CN</copyright>
-    <lastBuildDate>Sat, 01 May 2021 22:28:13 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 02 May 2021 01:27:11 +0900</lastBuildDate>
     
         <atom:link href="https://shchy.github.io/tags/k9s/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>続k3s</title>
+      <link>https://shchy.github.io/2021/05/20210502/</link>
+      <pubDate>Sun, 02 May 2021 01:27:11 +0900</pubDate>
+      
+      <guid>https://shchy.github.io/2021/05/20210502/</guid>
+      <description>デプロイの確認 まだアプリのコンテナレジストリどうするか問題があるのでk8sのクイックスタートをなぞって動作確認を行う。 コマンド kubectl create deployment hello-server --image=gcr.io/google-samples/hello-app:1.0 kubectl expose</description>
+    </item>
     
     <item>
       <title>K3S🛴</title>
