@@ -46,7 +46,7 @@
 <meta itemprop="name" content="goにgenricsが来るらしい">
 <meta itemprop="description" content="弱点なくなるじゃんね。 バックエンドにgoを選択したのは何かのお導きだったのか。 https://go.googlesource.com/proposal/&#43;/refs/heads/master/design/43651-type-parameters.md によると2022年の1.18バージョンで正式リリースされると"><meta itemprop="datePublished" content="2021-04-10T23:01:05&#43;09:00" />
 <meta itemprop="dateModified" content="2021-04-10T23:01:05&#43;09:00" />
-<meta itemprop="wordCount" content="798">
+<meta itemprop="wordCount" content="898">
 <meta itemprop="keywords" content="go,tech," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="goにgenricsが来るらしい"/>
 <meta name="twitter:description" content="弱点なくなるじゃんね。 バックエンドにgoを選択したのは何かのお導きだったのか。 https://go.googlesource.com/proposal/&#43;/refs/heads/master/design/43651-type-parameters.md によると2022年の1.18バージョンで正式リリースされると"/>
@@ -322,7 +322,7 @@ function tagCloud(where, min, max) {
     <a class="article-tag-link" href="/tags/tech/"> tech </a>
   </span>
 
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 798 words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 898 words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 2 minutes </span>
       </div>
     </div>
@@ -410,6 +410,7 @@ var _ = fmt.Errorf
 <h1 id="作り始めたfiberサーバにそのまま使えるのか">作り始めたfiberサーバにそのまま使えるのか</h1>
 <p>結論だけ言うとうまくいかなかった。<br>
 <code>importGo1Package</code>ってとこで死んでるので既存ライブラリのインポートに失敗してるっぽい。<br>
+徹夜して<code>print</code>ログ仕込みまくって<code>tags</code>パラメータを指定したりファイル名から対象OS選択する処理を追加したりすると何とか<code>importGo1Package</code>は突破できたけど、次に型チェックで失敗する。<br>
 go2goは実験用ブランチみたいだからプレビューバージョンくらいになるまでは大人しくジェネレータ使うことにしよう。</p>
 
     </div>

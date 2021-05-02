@@ -51,7 +51,7 @@
 <meta itemprop="name" content="バックエンドサーバの選択">
 <meta itemprop="description" content="サボりを可視化する何かを作ることにした。 アレもコレもとつけたくなってしまうがグッと堪えて完成を優先する。(センセイの教え) バックエンドサーバ"><meta itemprop="datePublished" content="2021-04-03T14:51:05&#43;09:00" />
 <meta itemprop="dateModified" content="2021-04-03T14:51:05&#43;09:00" />
-<meta itemprop="wordCount" content="254">
+<meta itemprop="wordCount" content="338">
 <meta itemprop="keywords" content="無駄口," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="バックエンドサーバの選択"/>
 <meta name="twitter:description" content="サボりを可視化する何かを作ることにした。 アレもコレもとつけたくなってしまうがグッと堪えて完成を優先する。(センセイの教え) バックエンドサーバ"/>
@@ -326,7 +326,7 @@ function tagCloud(where, min, max) {
     <a class="article-tag-link" href="/tags/%E7%84%A1%E9%A7%84%E5%8F%A3/"> 無駄口 </a>
   </span>
 
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 254 words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 338 words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
       </div>
     </div>
@@ -336,8 +336,11 @@ function tagCloud(where, min, max) {
 <p>バックエンドサーバに何を使うかの検討するためにベンチマーク見てみた。<br>
 普段はgoのechoを使っているのである。</p>
 <p><a href="https://www.techempower.com/benchmarks/"><img src="/imgs/20210403.png" alt="/imgs/20210403.png"></a></p>
-<p>ネイティブビルドのC++、Rust、Goが早い傾向にあるのであった。<br>
-DBはpostgres一択の様子。JavaとC#が上位に１件ずついるのは無視してやはりGoを使うのである。</p>
+<p>DBはpostgres一択の様子。<br>
+ネイティブビルドのC++、Rust、Goが早い傾向にあるのであった。<br>
+C++使うほどパフォーマンス必要なもの作る予定はない。<br>
+Rustはやってみたいなと思いつつ、Haskell並に制約厳しかった印象なのでまだおじさんのレベルが足りていない。<br>
+JavaとC#が上位に１件ずついるのは無視してやはりGoを使うのである。</p>
 <p>ただechoはまあまあ遅いことがわかったのでランキング上位で使いやすそうなfiberを使うことにする。</p>
 
     </div>
