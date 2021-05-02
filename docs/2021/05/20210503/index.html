@@ -2,7 +2,7 @@
 <html lang="ja">
   <head>
     <title>
-        続k3s - 僭越ながらお金持ちになりたいおじさん
+        Github Actions - 僭越ながらお金持ちになりたいおじさん
       </title>
         <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -26,9 +26,9 @@
     
     
     
-    <meta name="google-site-verification" content="ivAYAN53Xi61yOBhZLoPShC9fVyCmjPULXNUj0pneqg" /><meta name="description" content="デプロイの確認 まだアプリのコンテナレジストリどうするか問題があるのでk8sのクイックスタートをなぞって動作確認を行う。 コマンド kubectl create deployment hello-server --image=gcr.io/google-samples/hello-app:1.0 kubectl expose" />
+    <meta name="google-site-verification" content="ivAYAN53Xi61yOBhZLoPShC9fVyCmjPULXNUj0pneqg" /><meta name="description" content="CIをGitHub Actionsでやってみた gitlabCIでやってたことをGitHub Actionsのドキュメント見て置き換えるだけ。 とは" />
     <meta name="generator" content="Hugo 0.82.1 with theme pure" />
-    <title>続k3s - 僭越ながらお金持ちになりたいおじさん</title>
+    <title>Github Actions - 僭越ながらお金持ちになりたいおじさん</title>
     
     
     <link rel="stylesheet" href="https://shchy.github.io/css/style.min.6f90022f237877ae2514ec95f3c9cca9f2314394f20800ca037a497e20053122.css">
@@ -36,20 +36,20 @@
     <link rel="stylesheet" href="https://shchy.github.io/css/ja.css" async>
     <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
-    <meta property="og:title" content="続k3s" />
-<meta property="og:description" content="デプロイの確認 まだアプリのコンテナレジストリどうするか問題があるのでk8sのクイックスタートをなぞって動作確認を行う。 コマンド kubectl create deployment hello-server --image=gcr.io/google-samples/hello-app:1.0 kubectl expose" />
+    <meta property="og:title" content="Github Actions" />
+<meta property="og:description" content="CIをGitHub Actionsでやってみた gitlabCIでやってたことをGitHub Actionsのドキュメント見て置き換えるだけ。 とは" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://shchy.github.io/2021/05/20210502/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-05-02T01:27:11&#43;09:00" />
-<meta property="article:modified_time" content="2021-05-02T01:27:11&#43;09:00" />
+<meta property="og:url" content="https://shchy.github.io/2021/05/20210503/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-05-02T22:49:24&#43;09:00" />
+<meta property="article:modified_time" content="2021-05-02T22:49:24&#43;09:00" />
 
-<meta itemprop="name" content="続k3s">
-<meta itemprop="description" content="デプロイの確認 まだアプリのコンテナレジストリどうするか問題があるのでk8sのクイックスタートをなぞって動作確認を行う。 コマンド kubectl create deployment hello-server --image=gcr.io/google-samples/hello-app:1.0 kubectl expose"><meta itemprop="datePublished" content="2021-05-02T01:27:11&#43;09:00" />
-<meta itemprop="dateModified" content="2021-05-02T01:27:11&#43;09:00" />
-<meta itemprop="wordCount" content="430">
-<meta itemprop="keywords" content="52steps,k9s,k3s,digitalocean," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="続k3s"/>
-<meta name="twitter:description" content="デプロイの確認 まだアプリのコンテナレジストリどうするか問題があるのでk8sのクイックスタートをなぞって動作確認を行う。 コマンド kubectl create deployment hello-server --image=gcr.io/google-samples/hello-app:1.0 kubectl expose"/>
+<meta itemprop="name" content="Github Actions">
+<meta itemprop="description" content="CIをGitHub Actionsでやってみた gitlabCIでやってたことをGitHub Actionsのドキュメント見て置き換えるだけ。 とは"><meta itemprop="datePublished" content="2021-05-02T22:49:24&#43;09:00" />
+<meta itemprop="dateModified" content="2021-05-02T22:49:24&#43;09:00" />
+<meta itemprop="wordCount" content="2002">
+<meta itemprop="keywords" content="52steps,k9s,k3s,dockerhub,Github Actions," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Github Actions"/>
+<meta name="twitter:description" content="CIをGitHub Actionsでやってみた gitlabCIでやってたことをGitHub Actionsのドキュメント見て置き換えるだけ。 とは"/>
 
     <!--[if lte IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -302,8 +302,8 @@ function tagCloud(where, min, max) {
       <h1 itemprop="name">
   <a
     class="article-title"
-    href="/2021/05/20210502/"
-    >続k3s</a
+    href="/2021/05/20210503/"
+    >Github Actions</a
   >
 </h1>
 
@@ -311,8 +311,8 @@ function tagCloud(where, min, max) {
         
 <span class="article-date">
   <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://shchy.github.io/2021/05/20210502/" class="article-date">
-  <time datetime="2021-05-02 01:27:11 &#43;0900 JST" itemprop="datePublished">2021-05-02</time>
+<a href="https://shchy.github.io/2021/05/20210503/" class="article-date">
+  <time datetime="2021-05-02 22:49:24 &#43;0900 JST" itemprop="datePublished">2021-05-02</time>
 </a>
 </span>
   
@@ -321,58 +321,212 @@ function tagCloud(where, min, max) {
     <a class="article-tag-link" href="/tags/52steps/"> 52steps </a>
     <a class="article-tag-link" href="/tags/k9s/"> k9s </a>
     <a class="article-tag-link" href="/tags/k3s/"> k3s </a>
-    <a class="article-tag-link" href="/tags/digitalocean/"> digitalocean </a>
+    <a class="article-tag-link" href="/tags/dockerhub/"> dockerhub </a>
+    <a class="article-tag-link" href="/tags/github-actions/"> Github Actions </a>
   </span>
 
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 430 words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 2002 words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 4 minutes </span>
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      <h1 id="デプロイの確認">デプロイの確認</h1>
-<p>まだアプリのコンテナレジストリどうするか問題があるので<a href="https://cloud.google.com/kubernetes-engine/docs/quickstart?hl=ja">k8sのクイックスタート</a>をなぞって動作確認を行う。</p>
-<h2 id="コマンド">コマンド</h2>
-<pre><code class="language-sh">kubectl create deployment hello-server --image=gcr.io/google-samples/hello-app:1.0  
-kubectl expose deployment hello-server --type LoadBalancer --port 80 --target-port 8080
+      <h1 id="ciをgithub-actionsでやってみた">CIをGitHub Actionsでやってみた</h1>
+<p>gitlabCIでやってたことを<a href="https://docs.github.com/ja/actions">GitHub Actionsのドキュメント</a>見て置き換えるだけ。<br>
+とはいえ最初<code>workflow</code>と<code>action</code>がごっちゃになっててうまく検索できなかった。<br>
+gitlabCIの<code>gitlab-ci.yml</code>に当たるのは<code>workflow</code>です。<br>
+<code>action</code>は汎用するために処理単位で切り出した共通モジュールなので超便利っぽいけど一旦スルーすると理解しやすいと思う。</p>
+<h1 id="作ったもの">作ったもの</h1>
+<pre><code class="language-yml"># ./.github/workflows/00.yml
+name: &quot;deploy&quot;
+
+# トリガをmasterへのpushに設定
+on:
+  push:
+    branches:
+      - &quot;master&quot;
+
+jobs:
+  # 別に名前は何でもよさそう
+  build:
+    # ジョブの実行環境を指定
+    runs-on: ubuntu-latest
+    # 環境変数定義
+    env:
+      GITHUB_SHA_S: $(echo ${GITHUB_SHA} | cut -c1-8)
+    # ジョブのタスクを定義していく
+    steps:
+      # リポジトリチェックアウトするアクションを最初に実行
+      - uses: actions/checkout@v2
+
+      # DockerHubにログイン
+      - name: Login to Docker Hub
+        uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      # Build&amp;Push
+      - run: docker build --build-arg baseurl=${{secrets.APP_IP}} -t ${{ secrets.DOCKERHUB_USERNAME }}/52steps:${{env.GITHUB_SHA_S}} .
+      - run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/52steps:${{env.GITHUB_SHA_S}}
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_SHA_S: $(echo ${GITHUB_SHA} | cut -c1-8)
+    steps:
+      - uses: actions/checkout@v2
+      # namespaceの作成
+      - name: create ns
+        uses: steebchen/kubectl@master
+        env:
+          KUBE_CONFIG_DATA: ${{ secrets.K8S_CONFIG }}
+        with:
+          args: apply -f ./deploy/ns.yml
+
+      # k8sにdockerhubへのアクセス権限を作成
+      - name: create secret
+        uses: steebchen/kubectl@master
+        env:
+          KUBE_CONFIG_DATA: ${{ secrets.K8S_CONFIG }}
+        with:
+          args: |
+            -n 52steps create secret docker-registry regcred \
+              --docker-server=https://index.docker.io/v2/ \
+              --docker-username=${{ secrets.DOCKERHUB_USERNAME }} \
+              --docker-password=${{ secrets.DOCKERHUB_TOKEN }} \
+              --docker-email=${{ secrets.DOCKERHUB_MAIL }} \
+              -o yaml --dry-run | kubectl apply -f -
+
+      # dockerHubのプライベートイメージにアクセスできるようにアクセス権限をnamespaceのdefaultアカウントに付与
+      - name: add regcred namespace account
+        uses: steebchen/kubectl@master
+        env:
+          KUBE_CONFIG_DATA: ${{ secrets.K8S_CONFIG }}
+        with:
+          args: |
+            patch serviceaccount default \
+              -p '{\&quot;imagePullSecrets\&quot;: [{\&quot;name\&quot;: \&quot;regcred\&quot;}]}' \
+              -n 52steps
+
+      # DBイメージをデプロイ
+      - name: create db
+        uses: steebchen/kubectl@master
+        env:
+          KUBE_CONFIG_DATA: ${{ secrets.K8S_CONFIG }}
+        with:
+          args: apply -f ./deploy/db.yml
+
+      # アプリをデプロイ
+      - name: Update deployment file
+        run: TAG=${{ secrets.DOCKERHUB_USERNAME }}/52steps:${{env.GITHUB_SHA_S}} &amp;&amp; sed -i &quot;s|&lt;IMAGE&gt;|$TAG|&quot; ./deploy/app.yml
+      - name: create app
+        uses: steebchen/kubectl@master
+        env:
+          KUBE_CONFIG_DATA: ${{ secrets.K8S_CONFIG }}
+        with:
+          args: apply -f ./deploy/app.yml
+
+      # アプリのサービスをIngressで公開
+      - name: create ingress
+        uses: steebchen/kubectl@master
+        env:
+          KUBE_CONFIG_DATA: ${{ secrets.K8S_CONFIG }}
+        with:
+          args: apply -f ./deploy/ingress.yml
 </code></pre>
-<h2 id="繋がらない">繋がらない</h2>
-<p>上記で作成した<code>hello-server</code>serviceを確認すると外部IPが<code>pending</code>のまま変わらない。 <br>
-多分digitaloceanでDropletに割り当てられてるIPは１つだから外部IPの取得ができなくて困ってるんだろう。<br>
-他のserviceを確認すると<code>traefik</code>というサービスが唯一の外部IPをポート80で使用している。<br>
-のでポートを変えてみる。</p>
-<pre><code>kubectl expose deployment hello-server --type LoadBalancer --port 8080 --target-port 8080
+<h1 id="dockerhubへのログイン">DockerHubへのログイン</h1>
+<p>自分のprivateレジストリにアクセスしたいので<code>docker/login-action</code>アクションを利用してdockerLoginを行う。<br>
+<code>DOCKERHUB_USERNAME</code>と<code>DOCKERHUB_TOKEN</code>はgithub actionsの設定画面から設定しておく。</p>
+<pre><code class="language-yml"># DockerHubにログイン
+- name: Login to Docker Hub
+  uses: docker/login-action@v1
+  with:
+    username: ${{ secrets.DOCKERHUB_USERNAME }}
+    password: ${{ secrets.DOCKERHUB_TOKEN }}
 </code></pre>
-<p>繋がった。</p>
-<h2 id="traefikて何なん">traefikて何なん</h2>
-<p><a href="https://rancher.com/docs/k3s/latest/en/networking/#traefik-ingress-controller">Ingress</a>だって。<br>
-じゃあIngress経由で公開してみよう。</p>
-<h2 id="hello-serverのserviceをclusteripに変更してポートも元に戻す"><code>hello-server</code>のserviceをClusterIPに変更してポートも元に戻す</h2>
-<pre><code class="language-sh">kubectl expose deployment hello-server --type ClusterIP --port 80 --target-port 8080
+<h1 id="dockerfileのビルドとプッシュ">Dockerfileのビルドとプッシュ</h1>
+<p>githubのリポジトリに登録したDockerfileをbuildしてpushする。<br>
+<code>${{env.GITHUB_SHA_S}}</code>はジョブの先頭で定義した<code>GITHUB_SHA_S: $(echo ${GITHUB_SHA} | cut -c1-8)</code>を参照しているだけ。<br>
+<code>GITHUB_SHA</code>はトリガとなったgitのcommitのハッシュ値でDockerImageのタグに使いたいけど長すぎるので短く切り取った。</p>
+<pre><code class="language-yml"># Build&amp;Push
+- run: docker build --build-arg baseurl=${{secrets.APP_IP}} -t ${{ secrets.DOCKERHUB_USERNAME }}/52steps:${{env.GITHUB_SHA_S}} .
+- run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/52steps:${{env.GITHUB_SHA_S}}
 </code></pre>
-<h2 id="ingressymlを作成">ingress.ymlを作成</h2>
-<pre><code class="language-yml">apiVersion: networking.k8s.io/v1
-kind: Ingress
-metadata:
-  name: ingress
-  annotations:
-    ingress.kubernetes.io/ssl-redirect: &quot;true&quot;
-spec:
-  rules:
-    - http:
-        paths:
-          - path: /
-            pathType: Prefix
-            backend:
-              service:
-                name: hello-server
-                port:
-                  number: 80
+<h1 id="k8sの操作">k8sの操作</h1>
+<p>deployジョブではk8sの操作を行ってDockerImageのデプロイを行う。<br>
+<code>steebchen/kubectl</code>アクションを使ってkubectlを実行していく。<br>
+<code>KUBE_CONFIG_DATA</code>にはローカルの<code>.kube/config</code>をbase64化した文字列を設定する。</p>
+<pre><code class="language-yml"># namespaceの作成
+- name: create ns
+  uses: steebchen/kubectl@master
+  env:
+    KUBE_CONFIG_DATA: ${{ secrets.K8S_CONFIG }}
+  with:
+    args: apply -f ./deploy/ns.yml
 </code></pre>
-<h2 id="ingressを配置">ingressを配置</h2>
-<pre><code class="language-sh">kubectl apply -f ingress.yml
+<h1 id="k8sにdockerhubへのアクセス権を付与する">k8sにDockerHubへのアクセス権を付与する</h1>
+<p>DockerHubのprivateレジストリを利用しているのでk8sにもアクセス権を与える必要がある。<br>
+k8sにはsecretの種別にdocker-registryへの権限が存在するのでそれを生成する。<br>
+secret作るときに<code>apply</code>が使えないのでCIの2回目実行時に「既にあるけど」的なエラーが発生する。<br>
+そのため<code>dry-run</code>でymlファイルを生成してパイプで<code>apply</code>に渡すといい感じになる。</p>
+<pre><code class="language-yml"># k8sにdockerhubへのアクセス権限を作成
+- name: create secret
+  uses: steebchen/kubectl@master
+  env:
+    KUBE_CONFIG_DATA: ${{ secrets.K8S_CONFIG }}
+  with:
+    args: |
+      -n 52steps create secret docker-registry regcred \
+        --docker-server=https://index.docker.io/v2/ \
+        --docker-username=${{ secrets.DOCKERHUB_USERNAME }} \
+        --docker-password=${{ secrets.DOCKERHUB_TOKEN }} \
+        --docker-email=${{ secrets.DOCKERHUB_MAIL }} \
+        -o yaml --dry-run | kubectl apply -f -
 </code></pre>
-<h2 id="繋がった">繋がった</h2>
-<p><img src="/imgs/20210502/00.png" alt=""></p>
+<h1 id="namespaceのdefaultアカウントに権限を付与">namespaceのdefaultアカウントに権限を付与</h1>
+<p>上記で作成した<code>regcred</code>をdeploymentファイルの<code>imagePullSecrets</code>に指定してもいいんだけどめんどくさいのでnamespaceのデフォルトアカウントにつけておく。<br>
+こうするとそのnamespace内で常に有効になる。</p>
+<pre><code class="language-yml"># dockerHubのプライベートイメージにアクセスできるようにアクセス権限をnamespaceのdefaultアカウントに付与
+- name: add regcred namespace account
+  uses: steebchen/kubectl@master
+  env:
+    KUBE_CONFIG_DATA: ${{ secrets.K8S_CONFIG }}
+  with:
+    args: |
+      patch serviceaccount default \
+        -p '{\&quot;imagePullSecrets\&quot;: [{\&quot;name\&quot;: \&quot;regcred\&quot;}]}' \
+        -n 52steps
+</code></pre>
+<h1 id="おじさんの感想">おじさんの感想</h1>
+<p>社内CI環境との違いはざっと以下の通り。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">もの</th>
+<th style="text-align:left">社内</th>
+<th style="text-align:left">今回</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">CI</td>
+<td style="text-align:left">gitlabCI</td>
+<td style="text-align:left">github actions</td>
+</tr>
+<tr>
+<td style="text-align:left">k8s</td>
+<td style="text-align:left">beremetalなk8s</td>
+<td style="text-align:left">digitaloceanのk3s</td>
+</tr>
+<tr>
+<td style="text-align:left">docker registry</td>
+<td style="text-align:left">gitlab registory</td>
+<td style="text-align:left">dockerhub</td>
+</tr>
+</tbody>
+</table>
+<p>CI環境は書き方の違いがあるくらいで、使っている範囲では出来る事に違いはなさそう。<br>
+k3sは今回の範囲ではk8sと同じ操作が可能で特にk3sを意識することはなかった。<br>
+dockerregistoryはdockerhub使う事にしたおかげで<code>insecure-registries</code>の設定は要らなかった。</p>
 
     </div>
     <div class="article-footer">
@@ -383,14 +537,9 @@ spec:
     <div class="bar-inner">
         <ul class="pager pull-left">
             <li class="prev">
-                <a href="https://shchy.github.io/2021/05/20210501/" title="K3S🛴"><i
+                <a href="https://shchy.github.io/2021/05/20210502/" title="続k3s"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
-            </li>
-            <li class="next">
-                <a href="https://shchy.github.io/2021/05/20210503/"
-                    title="Github Actions"><span>Newer&nbsp;&nbsp;</span><i
-                        class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
             
             <li class="toggle-toc">

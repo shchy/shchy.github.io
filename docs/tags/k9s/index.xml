@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>CC BY 4.0 CN</copyright>
-    <lastBuildDate>Sun, 02 May 2021 01:27:11 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 02 May 2021 22:49:24 +0900</lastBuildDate>
     
         <atom:link href="https://shchy.github.io/tags/k9s/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Github Actions</title>
+      <link>https://shchy.github.io/2021/05/20210503/</link>
+      <pubDate>Sun, 02 May 2021 22:49:24 +0900</pubDate>
+      
+      <guid>https://shchy.github.io/2021/05/20210503/</guid>
+      <description>CIをGitHub Actionsでやってみた gitlabCIでやってたことをGitHub Actionsのドキュメント見て置き換えるだけ。 とは</description>
+    </item>
     
     <item>
       <title>続k3s</title>
