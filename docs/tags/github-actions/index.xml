@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>CC BY 4.0 CN</copyright>
-    <lastBuildDate>Sun, 02 May 2021 22:49:24 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 03 May 2021 01:51:53 +0900</lastBuildDate>
     
         <atom:link href="https://shchy.github.io/tags/github-actions/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Firebase Hosting</title>
+      <link>https://shchy.github.io/2021/05/20210503_2/</link>
+      <pubDate>Mon, 03 May 2021 01:51:53 +0900</pubDate>
+      
+      <guid>https://shchy.github.io/2021/05/20210503_2/</guid>
+      <description>Firebase Hositing apiサーバでSPAもホストしちゃえばいいじゃんと思っていたけど負荷の監視とか今後のことを考えると別にしたほうがいいのかなあ、と思ってグ</description>
+    </item>
     
     <item>
       <title>Github Actions</title>
