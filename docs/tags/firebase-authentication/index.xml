@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Series on 僭越ながらお金持ちになりたいおじさん</title>
-    <link>https://shchy.github.io/series/</link>
-    <description>Recent content in Series on 僭越ながらお金持ちになりたいおじさん</description>
+    <title>firebase Authentication on 僭越ながらお金持ちになりたいおじさん</title>
+    <link>https://shchy.github.io/tags/firebase-authentication/</link>
+    <description>Recent content in firebase Authentication on 僭越ながらお金持ちになりたいおじさん</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>CC BY 4.0 CN</copyright>
+    <lastBuildDate>Tue, 04 May 2021 10:30:35 +0900</lastBuildDate>
     
-        <atom:link href="https://shchy.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://shchy.github.io/tags/firebase-authentication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

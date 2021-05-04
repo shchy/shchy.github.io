@@ -46,7 +46,7 @@
 <meta itemprop="name" content="Firebase Hosting">
 <meta itemprop="description" content="Firebase Hositing apiサーバでSPAもホストしちゃえばいいじゃんと思っていたけど負荷の監視とか今後のことを考えると別にしたほうがいいのかなあ、と思ってグ"><meta itemprop="datePublished" content="2021-05-03T01:51:53&#43;09:00" />
 <meta itemprop="dateModified" content="2021-05-03T01:51:53&#43;09:00" />
-<meta itemprop="wordCount" content="502">
+<meta itemprop="wordCount" content="565">
 <meta itemprop="keywords" content="52steps,firebase,firebase hosting,Github Actions," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Firebase Hosting"/>
 <meta name="twitter:description" content="Firebase Hositing apiサーバでSPAもホストしちゃえばいいじゃんと思っていたけど負荷の監視とか今後のことを考えると別にしたほうがいいのかなあ、と思ってグ"/>
@@ -155,8 +155,8 @@
     <div id="tag-cloud-list" class="widget-body">
             
             
-            <a href="https://shchy.github.io/tags/52steps/" class="tag-list-link" rel="6">52steps<span
-               class="tag-list-count">6</span></a>
+            <a href="https://shchy.github.io/tags/52steps/" class="tag-list-link" rel="7">52steps<span
+               class="tag-list-count">7</span></a>
             
             
             <a href="https://shchy.github.io/tags/digitalocean/" class="tag-list-link" rel="2">digitalocean<span
@@ -167,7 +167,11 @@
                class="tag-list-count">1</span></a>
             
             
-            <a href="https://shchy.github.io/tags/firebase/" class="tag-list-link" rel="1">firebase<span
+            <a href="https://shchy.github.io/tags/firebase/" class="tag-list-link" rel="2">firebase<span
+               class="tag-list-count">2</span></a>
+            
+            
+            <a href="https://shchy.github.io/tags/firebase-authentication/" class="tag-list-link" rel="1">firebase-authentication<span
                class="tag-list-count">1</span></a>
             
             
@@ -175,8 +179,8 @@
                class="tag-list-count">1</span></a>
             
             
-            <a href="https://shchy.github.io/tags/flutter/" class="tag-list-link" rel="1">flutter<span
-               class="tag-list-count">1</span></a>
+            <a href="https://shchy.github.io/tags/flutter/" class="tag-list-link" rel="2">flutter<span
+               class="tag-list-count">2</span></a>
             
             
             <a href="https://shchy.github.io/tags/github-actions/" class="tag-list-link" rel="2">github-actions<span
@@ -239,6 +243,16 @@ function tagCloud(where, min, max) {
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://shchy.github.io/2021/05/20210504/" class="title">Github Auth</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-05-04 10:30:35 &#43;0900 JST" itemprop="datePublished">2021-05-04</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://shchy.github.io/2021/05/20210503_2/" class="title">Firebase Hosting</a>
                     </p>
                     <p class="item-date">
@@ -273,16 +287,6 @@ function tagCloud(where, min, max) {
                     </p>
                     <p class="item-date">
                         <time datetime="2021-05-01 22:28:13 &#43;0900 JST" itemprop="datePublished">2021-05-01</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://shchy.github.io/2021/04/20210425/" class="title">サボり監視</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2021-04-25 18:32:51 &#43;0900 JST" itemprop="datePublished">2021-04-25</time>
                     </p>
                 </div>
             </li>
@@ -332,7 +336,7 @@ function tagCloud(where, min, max) {
     <a class="article-tag-link" href="/tags/github-actions/"> Github Actions </a>
   </span>
 
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 502 words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 565 words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 2 minutes </span>
       </div>
     </div>
@@ -380,6 +384,9 @@ jobs:
 <h1 id="おじさんの感想">おじさんの感想</h1>
 <p>あとはgithubにpushすると勝手にfirebaseのプロジェクトにデプロイされる。<br>
 Firebaseってもしかして必須の知見なのでは？</p>
+<p>APIサーバにCORSの設定すればAPIもコールできることを確認。<br>
+完璧である。</p>
+<p>インフラばかりで中身の実装が一ミリも進んでない。</p>
 
     </div>
     <div class="article-footer">
@@ -393,6 +400,11 @@ Firebaseってもしかして必須の知見なのでは？</p>
                 <a href="https://shchy.github.io/2021/05/20210503/" title="Github Actions"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="https://shchy.github.io/2021/05/20210504/"
+                    title="Github Auth"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
             
             <li class="toggle-toc">
@@ -451,7 +463,8 @@ Firebaseってもしかして必須の知見なのでは？</p>
 <script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/bash.min.js" defer></script>
 <script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/dart.min.js" defer></script>
 <script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/shell.min.js" defer></script>
-<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/yaml.min.js" defer></script><script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/yaml.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/html.min.js" defer></script><script>
     hljs.configure({
         tabReplace: '    ', 
         classPrefix: ''     

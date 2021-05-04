@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>CC BY 4.0 CN</copyright>
-    <lastBuildDate>Mon, 03 May 2021 01:51:53 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 04 May 2021 10:30:35 +0900</lastBuildDate>
     
         <atom:link href="https://shchy.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Github Auth</title>
+      <link>https://shchy.github.io/2021/05/20210504/</link>
+      <pubDate>Tue, 04 May 2021 10:30:35 +0900</pubDate>
+      
+      <guid>https://shchy.github.io/2021/05/20210504/</guid>
+      <description>OAuth これをやりたかったのである。 コールバック先として本番環境のホスト名が必要になる予感がしたので、昨日までDigitalOceanで仮想マシン</description>
+    </item>
     
     <item>
       <title>Firebase Hosting</title>
