@@ -8,15 +8,16 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no,email=no,adress=no">
-    {{ if .IsPage }}
+    {{- if .IsPage }}
     <script data-ad-client="ca-pub-9093178841159974" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    {{ end }}
-    {{ if ( and (.IsPage) (.Params.eyecatch) )}}
+    {{- end }}
+
+    {{- if ( and (.IsPage) (.Params.eyecatch) )}}
     <!-- thumbnailの設定 -->
     <meta name="thumbnail" content="{{ .Params.eyecatch | absURL }}"/>
     <!-- twitter等用の設定 -->
     <meta property="og:image" content="{{ .Params.eyecatch | absURL }}" />
-    {{ end }}
+    {{- end }}
     <!-- Color theme for statusbar -->
     <meta name="theme-color" content="#000000" />
     <!-- 强制页面在当前窗口以独立页面显示,防止别人在框架里调用页面 -->
