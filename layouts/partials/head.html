@@ -9,7 +9,10 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no,email=no,adress=no">
     
+    {{ if (.IsPage) }}
     <script data-ad-client="ca-pub-9093178841159974" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    {{ end }}
+
     {{ if ( and (.IsPage) (.Params.eyecatch) )}}
     <!-- thumbnailの設定 -->
     <meta name="thumbnail" content="{{ .Params.eyecatch | absURL }}"/>
